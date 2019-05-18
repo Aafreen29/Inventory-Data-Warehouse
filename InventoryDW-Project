@@ -1,0 +1,13 @@
+<h3>Inventory Data Warehouse</h3>
+<p>The Inventory Data Warehouse provides data to answer business intelligence questions about inventory transaction cycles. 
+This document provides background on inventory transaction concepts, details about the snowflake schema to support inventory 
+transaction cycles, and a data dictionary about the table design for the data warehouse. </p>
+<br>
+<h3>1. Inventory Transaction Cycles </h3>
+<p>Inventory that is bought, sold, consumed, and produced is the heart of any manufacturing and/or distribution company.  Inventory transactions are frequent and commonplace.  The volume and significance of inventory transactions make them important in a data warehouse design.
+Because inventory management is a common and important yet difficult activity in many organizations, ERP vendors have 
+developed Enterprise Resource Management (ERP) software to provide software support. Typically, ERP software provides 
+modules related to Manufacturing, Distribution/Logistics, Financials, and HR/Payroll.  Inventory is at the heart of the 
+Manufacturing and Distribution/Logistics modules.  The work order, sales, and purchase life cycles affect the perpetual 
+inventory balance as shown in Figure 1. In addition, inventory transactions including adjustments, transfers, issues, and 
+reclassifications affect the perpetual inventory balance. </p>
